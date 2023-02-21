@@ -1,0 +1,59 @@
+/* Set default styles for the entire page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the body */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Style the container div */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Style the h2 tag */
+h2 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+/* Style the h3 tags */
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+/* Style the start button */
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Style the start button link */
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Style the start button when hovered */
+button:hover {
+  background-color: #3e8e41;
+}
